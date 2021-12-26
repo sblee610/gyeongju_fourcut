@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>경주네컷 원빈</title>
+    <style media="screen">
+      body {
+        font-family:'Arimo';
+        margin : 0;
+        overflow-style: none;
+      }
+
+      ::-webkit-scrollbar {
+        display:none;
+      }
+
+      .workContain {
+        scroll-snap-type: y mandatory;
+        overflow: auto;
+        width : 100vw;
+        height : 100vh;
+      }
+
+      .WorksIntro {
+        scroll-snap-align : start;
+        width : 100%;
+        height : 100%;
+        background: url(img/2원빈1.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+
+      .WorksDescription {
+        scroll-snap-align : start;
+        padding : 5%;
+        position : relative;
+
+      }
+
+      .WorksDescription #logo {
+        position : absolute;
+        left : 40%;
+        Top : 5%;
+      }
+
+      .WorksDescription #background {
+        width : 100vw;
+        margin : -5vw;
+      }
+
+
+      .WorksDescription h3 {
+        position : absolute;
+        top : 15vh;
+        margin : 0;
+        font-weight: normal;
+        color : white;
+      }
+
+      .WorksDescription h1 {
+        position : absolute;
+        bottom : 0;
+        right : 10vw;
+        margin : 0;
+        font-weight: normal;
+        width : 30%;
+        font-size : 3.2em;
+        color : white;
+      }
+
+      .WorksDescription2 p {
+        width:40%;
+        font-size : 1.5em;
+        margin:0;
+      }
+
+      .WorksDescription2 h1 {
+        position : absolute;
+        top : 0;
+        right : 10vw;
+        margin : 0;
+        font-weight: normal;
+        width : 30%;
+        font-size : 3.2em;
+      }
+
+      .WorksDescription2 {
+        scroll-snap-align : start;
+        position : relative;
+        padding : 5%;
+
+      }
+
+      .WorksDescription3 {
+        scroll-snap-align : start;
+        position : relative;
+        text-align : center;
+      }
+
+      #scrollicon_b {
+        position : absolute;
+        display : flex;
+        bottom : 50px;
+        height : 26px;
+        width : 70px;
+        margin-left:-35px;
+        font-size: 15px;
+        color:black;
+        border: 1.5px black solid;
+        left: 50%;
+        border-radius: 13px;
+        align-items:center;
+        justify-content:center;
+        text-decoration : none;
+      }
+
+      @font-face {font-family:"Arimo";
+      src:url("Arimo-Regular.ttf") format("truetype");
+      font-weight:normal;font-style:normal;}
+
+      .fadePage {
+      -webkit-animation-name: fadePage;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fadePage;
+      animation-duration: 1.5s;
+      }
+
+      .active {
+      fill:blue;
+      }
+
+      @-webkit-keyframes fadePage {
+      from {opacity: .2}
+      to {opacity: 1}
+      }
+
+      @keyframes fadePage {
+      from {opacity: .2}
+      to {opacity: 1}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="workContain">
+      <div class="WorksIntro">
+      </div>
+      <div class="WorksDescription">
+        <img id="logo" src="">
+        <img id="background" src="img/2원빈2.jpg">
+        <h1></h1>
+      </div>
+
+      <div class="WorksDescription2">
+        <p>1<br>마음의 문<br>밖에서 보면 OPEN 인데 안에서 보면 CLOSED 인 것이 마치 사람의 마음 같았다. 겉으로는 마음을 연 것 같지만 사실 마음이 닫혀 있는.<br><br>2<br>202n년<br>지역소식 알람판 이라는 것을 처음 봐서 신기함에 담아봤다. 평야와 함께 낙후되어 보이는 공간이었는데도 지역 내 소식이 오고가고 보안이 되어있다는 것을 알리는, 어쩌면 최신처럼 보이는 알림판이었다. </p>
+        <h1>원빈</h1>
+      </div>
+
+  </div>
+  </body>
+</html>

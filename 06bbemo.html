@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>경주네컷 뺌모</title>
+    <style media="screen">
+      body {
+        font-family:'Arimo';
+        margin : 0;
+        overflow-style: none;
+      }
+
+      ::-webkit-scrollbar {
+        display:none;
+      }
+
+      .workContain {
+        scroll-snap-type: y mandatory;
+        overflow: auto;
+        width : 100vw;
+        height : 100vh;
+      }
+
+      .WorksIntro {
+        scroll-snap-align : start;
+        width : 100%;
+        height : 100%;
+        background: url(img/6뺌모1.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+
+      .WorksDescription {
+        scroll-snap-align : start;
+        padding : 5%;
+        position : relative;
+
+      }
+
+      .WorksDescription #logo {
+        position : absolute;
+        left : 40%;
+        Top : 5%;
+      }
+
+      .WorksDescription #background {
+        width : 100vw;
+        margin : -5vw;
+      }
+
+
+      .WorksDescription h3 {
+        position : absolute;
+        top : 15vh;
+        margin : 0;
+        font-weight: normal;
+        color : white;
+      }
+
+      .WorksDescription h1 {
+        position : absolute;
+        bottom : 0;
+        right : 10vw;
+        margin : 0;
+        font-weight: normal;
+        width : 30%;
+        font-size : 3.2em;
+        color : white;
+      }
+
+      .WorksDescription2 p {
+        width:40%;
+        font-size : 1.5em;
+        margin:0;
+      }
+
+      .WorksDescription2 h1 {
+        position : absolute;
+        top : 0;
+        right : 10vw;
+        margin : 0;
+        font-weight: normal;
+        width : 30%;
+        font-size : 3.2em;
+      }
+
+      .WorksDescription2 {
+        scroll-snap-align : start;
+        position : relative;
+        padding : 5%;
+
+      }
+
+      .WorksDescription3 {
+        scroll-snap-align : start;
+        position : relative;
+        text-align : center;
+      }
+
+      #scrollicon_b {
+        position : absolute;
+        display : flex;
+        bottom : 50px;
+        height : 26px;
+        width : 70px;
+        margin-left:-35px;
+        font-size: 15px;
+        color:black;
+        border: 1.5px black solid;
+        left: 50%;
+        border-radius: 13px;
+        align-items:center;
+        justify-content:center;
+        text-decoration : none;
+      }
+
+      @font-face {font-family:"Arimo";
+      src:url("Arimo-Regular.ttf") format("truetype");
+      font-weight:normal;font-style:normal;}
+
+      .fadePage {
+      -webkit-animation-name: fadePage;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fadePage;
+      animation-duration: 1.5s;
+      }
+
+      .active {
+      fill:blue;
+      }
+
+      @-webkit-keyframes fadePage {
+      from {opacity: .2}
+      to {opacity: 1}
+      }
+
+      @keyframes fadePage {
+      from {opacity: .2}
+      to {opacity: 1}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="workContain">
+      <div class="WorksIntro">
+      </div>
+      <div class="WorksDescription">
+        <img id="logo" src="">
+        <img id="background" src="img/6뺌모2.jpg">
+        <h1></h1>
+      </div>
+
+      <div class="WorksDescription2">
+        <p>1<br>황리단길 여러 표지판들이 모여있는게 보기 좋아서 찍었는데 저희 삶도 이렇게 여러 갈림길중 하나를 선택해서 가고 그 갈림길마다 다른 풍경을 보고 색다른 경험을 할 수 있다는 느낌이 들어서!<br><br>2<br>경주의 여유로운 풍경을 찍어서 좋았고 조원들의 뒷모습을 우연찮게 찍었는데 잘 나와서, 타인의 즐거운 모습을 담는 것이 쉽지않지만 맘에 들어서!</p>
+        <h1>뺌모</h1>
+      </div>
+
+  </div>
+  </body>
+</html>
