@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>경주네컷2-7</title>
+    <style media="screen">
+      body {
+        font-family:'Arimo';
+        margin : 0;
+        overflow-style: none;
+      }
+
+      ::-webkit-scrollbar {
+        display:none;
+      }
+
+      .workContain {
+        scroll-snap-type: y mandatory;
+        overflow: auto;
+        width : 100vw;
+        height : 100vh;
+      }
+
+      .WorksIntro {
+        scroll-snap-align : start;
+        width : 100%;
+        height : 100%;
+        background: url(img2/2-7-1.jpeg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+
+      .WorksDescription {
+        scroll-snap-align : start;
+        padding : 5%;
+        position : relative;
+
+      }
+
+      .WorksDescription #logo {
+        position : absolute;
+        left : 40%;
+        Top : 5%;
+      }
+
+      .WorksDescription #background {
+        width : 100vw;
+        margin : -5vw;
+      }
+
+
+      .WorksDescription h3 {
+        position : absolute;
+        top : 15vh;
+        margin : 0;
+        font-weight: normal;
+        color : white;
+      }
+
+      .WorksDescription h1 {
+        position : absolute;
+        bottom : 0;
+        right : 10vw;
+        margin : 0;
+        font-weight: normal;
+        width : 30%;
+        font-size : 3.2em;
+        color : white;
+      }
+
+      .WorksDescription2 p {
+        width:40%;
+        font-size : 1.5em;
+        margin:0;
+      }
+
+      .WorksDescription2 h1 {
+        position : absolute;
+        top : 0;
+        right : 10vw;
+        margin : 0;
+        font-weight: normal;
+        width : 30%;
+        font-size : 3.2em;
+      }
+
+      .WorksDescription2 {
+        scroll-snap-align : start;
+        position : relative;
+        padding : 5%;
+
+      }
+
+      .WorksDescription3 {
+        scroll-snap-align : start;
+        position : relative;
+        text-align : center;
+      }
+
+      #scrollicon_b {
+        position : absolute;
+        display : flex;
+        bottom : 50px;
+        height : 26px;
+        width : 70px;
+        margin-left:-35px;
+        font-size: 15px;
+        color:black;
+        border: 1.5px black solid;
+        left: 50%;
+        border-radius: 13px;
+        align-items:center;
+        justify-content:center;
+        text-decoration : none;
+      }
+
+      @font-face {font-family:"Arimo";
+      src:url("Arimo-Regular.ttf") format("truetype");
+      font-weight:normal;font-style:normal;}
+
+      .fadePage {
+      -webkit-animation-name: fadePage;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fadePage;
+      animation-duration: 1.5s;
+      }
+
+      .active {
+      fill:blue;
+      }
+
+      @-webkit-keyframes fadePage {
+      from {opacity: .2}
+      to {opacity: 1}
+      }
+
+      @keyframes fadePage {
+      from {opacity: .2}
+      to {opacity: 1}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="workContain">
+      <div class="WorksIntro">
+      </div>
+      <div class="WorksDescription">
+        <img id="logo" src="">
+        <img id="background" src="img2/2-7-2.jpeg">
+        <h1></h1>
+      </div>
+
+      <div class="WorksDescription2">
+        <p>1<br><만끽><br><br>뜨거운 여름의 공기, 푸른 녹음, 코를 간질이는 딸기향, 빠르게 지나치는 자동차 소리. 그 한가운데를 팀원들과 가로지르던 순간.<br><br>2<br><이야기><br><br>공간에는 다양한 이야기가 쌓여있습니다. 그래서 여행을 가서도 공간을 읽어내는 걸 참 좋아합니다. 시선과 취향을 따라 셔터를 누른 ‘누군가의 책방’ 사진. </p>
+        <h1>스카이</h1>
+      </div>
+
+  </div>
+  </body>
+</html>

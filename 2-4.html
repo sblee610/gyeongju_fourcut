@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>경주네컷2-4</title>
+    <style media="screen">
+      body {
+        font-family:'Arimo';
+        margin : 0;
+        overflow-style: none;
+      }
+
+      ::-webkit-scrollbar {
+        display:none;
+      }
+
+      .workContain {
+        scroll-snap-type: y mandatory;
+        overflow: auto;
+        width : 100vw;
+        height : 100vh;
+      }
+
+      .WorksIntro {
+        scroll-snap-align : start;
+
+        height : 100%;
+        background: url(img2/2-4-1.jpeg) no-repeat center center scroll;
+        -webkit-background-size: contain;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size:contain ;
+      }
+
+
+      .WorksDescription {
+        scroll-snap-align : start;
+        padding : 5%;
+        position : relative;
+
+      }
+
+      .WorksDescription #logo {
+        position : absolute;
+        left : 40%;
+        Top : 5%;
+      }
+
+      .WorksDescription #background {
+        width : 100vw;
+        margin : -5vw;
+      }
+
+
+      .WorksDescription h3 {
+        position : absolute;
+        top : 15vh;
+        margin : 0;
+        font-weight: normal;
+        color : white;
+      }
+
+      .WorksDescription h1 {
+        position : absolute;
+        bottom : 0;
+        right : 10vw;
+        margin : 0;
+        font-weight: normal;
+        width : 30%;
+        font-size : 3.2em;
+        color : white;
+      }
+
+      .WorksDescription2 p {
+        width:40%;
+        font-size : 1.5em;
+        margin:0;
+      }
+
+      .WorksDescription2 h1 {
+        position : absolute;
+        top : 0;
+        right : 10vw;
+        margin : 0;
+        font-weight: normal;
+        width : 30%;
+        font-size : 3.2em;
+      }
+
+      .WorksDescription2 {
+        scroll-snap-align : start;
+        position : relative;
+        padding : 5%;
+
+      }
+
+      .WorksDescription3 {
+        scroll-snap-align : start;
+        position : relative;
+        text-align : center;
+      }
+
+      #scrollicon_b {
+        position : absolute;
+        display : flex;
+        bottom : 50px;
+        height : 26px;
+        width : 70px;
+        margin-left:-35px;
+        font-size: 15px;
+        color:black;
+        border: 1.5px black solid;
+        left: 50%;
+        border-radius: 13px;
+        align-items:center;
+        justify-content:center;
+        text-decoration : none;
+      }
+
+      @font-face {font-family:"Arimo";
+      src:url("Arimo-Regular.ttf") format("truetype");
+      font-weight:normal;font-style:normal;}
+
+      .fadePage {
+      -webkit-animation-name: fadePage;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fadePage;
+      animation-duration: 1.5s;
+      }
+
+      .active {
+      fill:blue;
+      }
+
+      @-webkit-keyframes fadePage {
+      from {opacity: .2}
+      to {opacity: 1}
+      }
+
+      @keyframes fadePage {
+      from {opacity: .2}
+      to {opacity: 1}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="workContain">
+      <div class="WorksIntro">
+      </div>
+      <div class="WorksDescription">
+        <img id="logo" src="">
+
+        <h1></h1>
+      </div>
+
+      <div class="WorksDescription2">
+        <p>1<br><일상 속 숨겨져 있는 아름다움><br><br>이 사진을 고른 이유는 시선을 주의깊게 주어 아름다움을 얻은 사진에서 인생에 대한 고찰을 느낄 수 있었기 때문이다.<br><br>길가다가 우연히 나무에 자연스레 생긴 고양이 모양을 봤다. 자연스럽게 만들어진 모양이라 놀랐고, 더 신기하고 아름다웠다. 시선을 저 나무쪽으로 집중하지 않았다면 저 아름다운 사진을 간직하지 못했을 것이다.<br><br>이렇듯 누군가에게는 재미없는 일상, 혹은 반복되는 무료한 일상이라도 조금만 더 시선을 주면 아름다움을 찾을 수 있다.
+        <h1>멍뭉</h1>
+      </div>
+
+  </div>
+  </body>
+</html>

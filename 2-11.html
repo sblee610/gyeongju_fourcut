@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>경주네컷2-11</title>
+    <style media="screen">
+      body {
+        font-family:'Arimo';
+        margin : 0;
+        overflow-style: none;
+      }
+
+      ::-webkit-scrollbar {
+        display:none;
+      }
+
+      .workContain {
+        scroll-snap-type: y mandatory;
+        overflow: auto;
+        width : 100vw;
+        height : 100vh;
+      }
+
+      .WorksIntro {
+        scroll-snap-align : start;
+        width : 100%;
+        height : 100%;
+        background: url(img2/2-11-1.jpeg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+
+      .WorksDescription {
+        scroll-snap-align : start;
+        padding : 5%;
+        position : relative;
+
+      }
+
+      .WorksDescription #logo {
+        position : absolute;
+        left : 40%;
+        Top : 5%;
+      }
+
+      .WorksDescription #background {
+        width : 100vw;
+        margin : -5vw;
+      }
+
+
+      .WorksDescription h3 {
+        position : absolute;
+        top : 15vh;
+        margin : 0;
+        font-weight: normal;
+        color : white;
+      }
+
+      .WorksDescription h1 {
+        position : absolute;
+        bottom : 0;
+        right : 10vw;
+        margin : 0;
+        font-weight: normal;
+        width : 30%;
+        font-size : 3.2em;
+        color : white;
+      }
+
+      .WorksDescription2 p {
+        width:40%;
+        font-size : 1.5em;
+        margin:0;
+      }
+
+      .WorksDescription2 h1 {
+        position : absolute;
+        top : 0;
+        right : 10vw;
+        margin : 0;
+        font-weight: normal;
+        width : 30%;
+        font-size : 3.2em;
+      }
+
+      .WorksDescription2 {
+        scroll-snap-align : start;
+        position : relative;
+        padding : 5%;
+
+      }
+
+      .WorksDescription3 {
+        scroll-snap-align : start;
+        position : relative;
+        text-align : center;
+      }
+
+      #scrollicon_b {
+        position : absolute;
+        display : flex;
+        bottom : 50px;
+        height : 26px;
+        width : 70px;
+        margin-left:-35px;
+        font-size: 15px;
+        color:black;
+        border: 1.5px black solid;
+        left: 50%;
+        border-radius: 13px;
+        align-items:center;
+        justify-content:center;
+        text-decoration : none;
+      }
+
+      @font-face {font-family:"Arimo";
+      src:url("Arimo-Regular.ttf") format("truetype");
+      font-weight:normal;font-style:normal;}
+
+      .fadePage {
+      -webkit-animation-name: fadePage;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fadePage;
+      animation-duration: 1.5s;
+      }
+
+      .active {
+      fill:blue;
+      }
+
+      @-webkit-keyframes fadePage {
+      from {opacity: .2}
+      to {opacity: 1}
+      }
+
+      @keyframes fadePage {
+      from {opacity: .2}
+      to {opacity: 1}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="workContain">
+      <div class="WorksIntro">
+      </div>
+      <div class="WorksDescription">
+        <img id="logo" src="">
+        
+        <h1></h1>
+      </div>
+
+      <div class="WorksDescription2">
+        <p>1<br><걷다보면 마주하는><br><br>천천히 걷는 걸 좋아한다. 천천히 걷다 보면 평소 여유가 없다면 보지 못하는 주변의 작고 귀여운 것들에 눈이 간다. 이번 경주 여행도 그랬다. 시멘트 바닥에 핀 꽃, 신기한 모양의 나무, 숨어있는 고양이, 화분이 가득한 집 마당.. 어디서든 이런 것들을 보고 사진으로 남길 때 여행하고 있음을 느낀다. 5.28-5.29 경주는 나에게 완전한 여행이었다!</p>
+        <h1>지나</h1>
+      </div>
+
+  </div>
+  </body>
+</html>
